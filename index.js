@@ -10,17 +10,17 @@ import { connect } from 'cloudflare:sockets';
  * User configuration and settings
  * Generate UUID: [Windows] Press "Win + R", input cmd and run: Powershell -NoExit -Command "[guid]::NewGuid()"
  */
-let userID = 'd342d11e-d424-4583-b36e-524ab1f0afa4';
+let userID = 'd296fe00-a738-43f2-bef9-b66c400a7688';
 
 /**
  * Array of proxy server addresses with ports
  * Format: ['hostname:port', 'hostname:port']
  */
-const proxyIPs = ['cdn.xn--b6gac.eu.org:443', 'cdn-all.xn--b6gac.eu.org:443'];
+const proxyIPs = ['proxyip.us.186077.xyz:443','ni.radically.pro:443', 'proxy.20141030.xyz:443'];
 
 // Randomly select a proxy server from the pool
-let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
-let proxyPort = proxyIP.includes(':') ? proxyIP.split(':')[1] : '443';
+let proxyIP = proxyIPs = proxyIPs = proxyIPs = proxyIPs = proxyIPs = proxyIPs = proxyIPs = proxyIPs[Math.Math.Math..Math....floor(Math.Math.Math..Math....random() * proxyIPs. * proxyIPs. * proxyIPs. * proxyIPs. * proxyIPs. * proxyIPs. * proxyIPs. * proxyIPs.length)];;;;;;;;
+let proxyPort = proxyIP. = proxyIP. = proxyIP. = proxyIP. = proxyIP. = proxyIP. = proxyIP. = proxyIP.includes(':') ? proxyIP. ? proxyIP. ? proxyIP. ? proxyIP. ? proxyIP. ? proxyIP. ? proxyIP. ? proxyIP.split(':')[1] :  :  :  :  :  :  :  : '443';;;;;;;;
 
 // Alternative configurations:
 // Single proxy IP: let proxyIP = 'cdn.xn--b6gac.eu.org';
