@@ -10,20 +10,20 @@ import { connect } from 'cloudflare:sockets';
  * User configuration and settings
  * Generate UUID: [Windows] Press "Win + R", input cmd and run: Powershell -NoExit -Command "[guid]::NewGuid()"
  */
-let userID = 'd296fe00-a738-43f2-bef9-b66c400a7688';
+let userID = '992d27e3-ad8b-4cd8-b730-a268dd95423f';
 
 /**
  * Array of proxy server addresses with ports
  * Format: ['hostname:port', 'hostname:port']
  */
-const proxyIPs = ['proxyip.us.186077.xyz:443','ni.radically.pro:443', 'proxy.20141030.xyz:443'];
+const proxyIPs = ['nezha.jiyideweidao.link:443', 'zgo.lax.8416.top:443'];
 
 // Randomly select a proxy server from the pool
-let proxyIP = proxyIPs = proxyIPs = proxyIPs = proxyIPs = proxyIPs = proxyIPs = proxyIPs = proxyIPs[Math.Math.Math..Math....floor(Math.Math.Math..Math....random() * proxyIPs. * proxyIPs. * proxyIPs. * proxyIPs. * proxyIPs. * proxyIPs. * proxyIPs. * proxyIPs.length)];;;;;;;;
-let proxyPort = proxyIP. = proxyIP. = proxyIP. = proxyIP. = proxyIP. = proxyIP. = proxyIP. = proxyIP.includes(':') ? proxyIP. ? proxyIP. ? proxyIP. ? proxyIP. ? proxyIP. ? proxyIP. ? proxyIP. ? proxyIP.split(':')[1] :  :  :  :  :  :  :  : '443';;;;;;;;
+let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
+let proxyPort = proxyIP.includes(':') ? proxyIP.split(':')[1] : '443';
 
 // Alternative configurations:
-// Single proxy IP: let proxyIP = 'cdn.xn--b6gac.eu.org';
+// Single proxy IP: let proxyIP = 'nezha.jiyideweidao.link';
 // IPv6 example: let proxyIP = "[2a01:4f8:c2c:123f:64:5:6810:c55a]"
 
 /**
@@ -1300,18 +1300,57 @@ function GenSub(userID_path, hostname, proxyIP) {
 	const mainDomains = new Set([
 		hostname,
 		// public domains
-		'icook.hk',
-		'japan.com',
-		'malaysia.com',
-		'russia.com',
-		'singapore.com',
-		'www.visa.com',
-		'www.csgo.com',
-		'www.shopify.com',
-		'www.whatismyip.com',
-		'www.ipget.net',
+		'speed.cloudflare.com',
+		'104.19.96.0',
+		'104.20.32.0',
+		'104.20.128.0',
+		'104.24.160.0',
+		'104.22.0.0',
+		'104.20.64.0',
+		'104.17.192.0',
+		'104.17.160.0',
+		'104.22.64.0',
+		'104.17.128.0',
+		'104.18.128.0',
+		'104.16.32.0',
+		'104.23.128.0',
+		'104.16.160.0',
+		'104.17.96.0',
+		'104.20.224.0',
+		'104.19.0.0',
+		'104.19.224.0',
+		'104.25.32.0',
+		'104.19.128.0',
+		'104.19.64.0',
+		'104.16.192.0',
+		'104.16.64.0',
+		'104.17.32.0',
+		'104.25.64.0',
+		'104.23.96.0',
+		'104.16.0.0',
+		'104.18.192.0',
+		'104.24.192.0',
+		'104.25.96.0',
+		'104.18.160.0',
+		'104.18.96.0',
+		'104.24.128.0',
+		'104.16.224.0',
+		'104.18.64.0',
+		'104.18.224.0',
+		'104.18.0.0',
+		'104.16.96.0',
+		'104.24.64.0',
+		'104.19.160.0',
+		'104.25.0.0',
+		'104.17.0.0',
+		'104.17.224.0',
+		'104.24.32.0',
+		'104.18.32.0',
+		'104.24.0.0',
+		'104.16.128.0',
+	    'ip.sb',
 		// 高频率更新
-		'speed.marisalnc.com',           // 1000ip/3min
+		// 'speed.marisalnc.com',           // 1000ip/3min
 		'freeyx.cloudflare88.eu.org',    // 1000ip/3min
 		'cloudflare.182682.xyz',         // 15ip/15min
 		// '115155.xyz',                    // 18ip/1小时
@@ -1322,7 +1361,7 @@ function GenSub(userID_path, hostname, proxyIP) {
 		'cf.0sm.com',                    // 手动更新
 		'cloudflare-ip.mofashi.ltd',     // 未知频率
 		'cf.090227.xyz',                 // 未知频率
-		'cname.xirancdn.us',             // 未知频率
+		// 'cname.xirancdn.us',             // 未知频率
 		// 'f3058171cad.002404.xyz',        // 未知频率
 		'cf.zhetengsha.eu.org',          // 未知频率
 		'cloudflare.9jy.cc',             // 未知频率
